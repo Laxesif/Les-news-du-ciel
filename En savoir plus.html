@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histoire</title>
+  <link rel="stylesheet" href="css/programme.css">
+  <link rel="stylesheet" href="css/bouton.css">
+  <link rel="stylesheet" href="css/en.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body id="histoire-page">
+
+
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="index.html">Accueil</a>
+        <!-- Bouton Événements, qui ouvre le sous-menu lors du clic -->
+        <a href="#" class="favorite styled" type="button" id="eventsButton">Événements</a>
+        <!-- Sous-menu, masqué par défaut -->
+        <div class="event-links">
+            <a href="Évenement/Etoile observation.html">Étoile Observation</a>
+            <a href="Évenement/Fusee decollage.html">Fusée Décollage</a>
+        </div>
+        <a id="redirectLink" href="Programme.html">Programme</a>
+        <a href="Histoire.html">Histoire</a>
+        <a href="En savoir plus.html">En savoir plus</a>
+        <button id="scrollToTop" class="scroll-to-top">Remonter</button>
+    </nav>
+    <div class="main-content">
+    <div class="header">
+        <h1>Les différentes articles pour en savoir plus</h1>
+    </div>
+
+    <div class="body">
+        <div class="article">
+            <h1>STS-1</h1>
+            
+            <p id="titreId">STS-1, la première mission du programme de la navette spatiale, a eu lieu en 1981 avec la navette Columbia. Son objectif principal était de tester le bouclier thermique de la navette et de vérifier le fonctionnement du réservoir principal et des propulseurs. La mission s’est bien déroulée, bien que l'atterrissage ait eu lieu au Texas plutôt qu'au Kennedy Space Center à cause des conditions de la piste. Après la mission, la Columbia a été transportée par avion au Kennedy Space Center pour des révisions. La mission suivante, STS-2, visait à tester le bras robotique de la navette.</p>
+            <button onclick="showArticle('article1')">En savoir plus</button>
+            <div id="article1" class="article-content">
+                <p>STS-1 est la première mission du programme de la navette spatiale. Ce programme a été créé après les missions Apollo. Il avait pour but de développer les premiers vaisseaux spatiaux réutilisables, permettant des lancements réguliers. Ces missions servaient à tester des expériences scientifiques, à envoyer des pièces pour la Station Spatiale Internationale (ISS), à mettre en orbite des satellites et même à réparer des équipements tels que le télescope spatial Hubble.
+    
+                    Pour tester ces vaisseaux, un prototype nommé Enterprise a d'abord été construit. Il servait à expérimenter les capacités de vol plané de la navette. La première mission opérationnelle, STS-1, a été réalisée avec la navette Columbia, tristement célèbre pour la mission STS-107, au cours de laquelle elle a été détruite lors de sa rentrée atmosphérique en 2003, entraînant la mort de sept membres d'équipage.
+                    
+                    STS-1 s’est déroulée avec un équipage réduit de deux personnes, le minimum requis (la capacité maximale étant de sept). L’objectif principal de cette mission était de tester le bouclier thermique de la navette pendant la rentrée atmosphérique, ainsi que de vérifier les performances du réservoir principal et des propulseurs. Le lancement a eu lieu au Kennedy Space Center en Floride.
+                    
+                    La mission s’est déroulée sans encombre. Pendant le vol, la trappe principale de la soute a été ouverte pour tester son fonctionnement. Cependant, à l’atterrissage, la piste du Kennedy Space Center n’était pas encore prête, notamment à cause des marées environnantes et d’une longueur insuffisante. Une piste au Texas a donc été choisie pour l’atterrissage, qui s’est effectué sans incident.
+                    
+                    Une fois la mission terminée, la navette Columbia a été ramenée au Kennedy Space Center grâce à un avion spécialement modifié, qui transportait la navette sur son dos. Après l’arrivée, la navette a été révisée et préparée pour la mission suivante, STS-2, dont l’objectif principal était de tester le bras robotique de la navette. Mais nous parlerons de cela une autre fois. fait un aperçu rapide </p>
+                <img src="img/B_747_SCA_airplane_with_Columbia_on_board_before_touchdown_at_KSC.jpg" alt="Photo de l'article" style="width:100%; max-width:400px;">
+            </div>
+    
+    
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>© Alexis et Méline, 2nd5 2024-2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/article.js"></script>
+</body>
+</html>

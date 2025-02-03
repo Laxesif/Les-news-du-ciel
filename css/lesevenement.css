@@ -1,0 +1,113 @@
+.offline-message {
+    display: none;
+    background-color: #f8d7da;
+    color: #ff0921;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.launch {
+    background: #000000;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.launch h2 {
+    margin: 0;
+}
+.launch p {
+    margin: 5px 0;
+}
+
+/* Style CSS pour la page Fusée */
+
+/* Style global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/backgroud.jpg'); /* Arrière-plan */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Style pour l'heure UTC */
+.utc-time {
+    position: fixed; /* Fixe la position sur l'écran */
+    top: 95px; /* Distance depuis le haut */
+    right: 5px; /* Distance depuis la droite */
+    font-size: 1.4em; /* Taille du texte */
+    color: white; /* Couleur du texte */
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    padding: 5px 10px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre portée */
+    border: 2px solid rgba(7, 177, 134, 0.8); /* Bordure */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    text-align: center; /* Centre le texte */
+    z-index: 1000; /* Toujours au-dessus des autres éléments */
+}
+
+
+
+
+
+/* Liens sous-menu */
+.event-links a {
+    color: white;
+    font-size: 1em;
+    background: rgba(7, 177, 134, 0.8);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.event-links a:hover {
+    background: rgba(7, 140, 105, 0.8);
+    transform: scale(1.05);
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(7, 177, 134);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Liste des lancements */
+#launch-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#launch-list li {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#launch-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
